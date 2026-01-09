@@ -1,0 +1,66 @@
+body {
+    background: #fff5f5;
+    font-family: Arial;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #d10000;
+}
+
+button {
+    background: #d10000;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    padding: 8px ;
+    border-radius: 10px;
+    border: 1px solid #a50000;
+    outline: none;
+    transition: 0.25s ease;
+}
+
+input:focus {
+    border-color: #e63946;
+    box-shadow: 0 0 8px rgba(230,57,70,0.4);
+}
+
+input:hover {
+    border-color: #e63946;
+}
+
+input::placeholder {
+    color: #a50000;
+}
+
+input:focus {
+    border-color: #e63946;
+    box-shadow: 0 0 5px rgba(230,57,70,0.7);
+}
+
+button:hover {
+    background: #a50000;
+}
+
+#results table, #bookList table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#priceChart {
+    max-height: 250px !important;
+}

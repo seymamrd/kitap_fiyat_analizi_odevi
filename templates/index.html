@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kitap Arama</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>📚 Kitap Fiyat Karşılaştırma</h1>
+
+    <input id="query" placeholder="Kitap adı yaz..." />
+    <button onclick="searchBook()">Ara</button>
+
+    <div id="results"></div>
+
+    <canvas id="priceChart"></canvas>
+
+    <h2>Kayıtlı Kitaplar</h2>
+    <div id="bookList"></div>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
